@@ -1,6 +1,6 @@
 {
     "name": "js-data-rest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "JS package for handling HATEOAS-JSON structures",
     "main": "lib/JsDataRest.js",
     "scripts": {
