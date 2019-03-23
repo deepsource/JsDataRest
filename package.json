@@ -1,0 +1,39 @@
+{
+    "name": "JsDataRest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/JsDataRest.js",
+    "scripts": {
+        "test": "jest --config jestconfig.json",
+        "build": "tsc",
+        "start": "npm run build",
+        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint": "tslint -p tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/deepsource/JsDataRest.git"
+    },
+    "keywords": [],
+    "author": "Sebastian Ullrich (https://deepsource.de)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/deepsource/JsDataRest/issues"
+    },
+    "homepage": "https://github.com/deepsource/JsDataRest#readme",
+    "dependencies": {
+        "@types/lodash": "^4.14.123"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.11",
+        "jest": "^24.5.0",
+        "prettier": "^1.16.4",
+        "ts-jest": "^24.0.0",
+        "tslint": "^5.14.0",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.3.4000"
+    },
+    "files": [
+        "lib/**/*"
+    ]
+}
