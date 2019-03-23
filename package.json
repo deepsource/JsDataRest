@@ -2,7 +2,7 @@
     "name": "js-data-rest",
     "version": "1.0.0",
     "description": "JS package for handling HATEOAS-JSON structures",
-    "main": "dist/JsDataRest.js",
+    "main": "lib/JsDataRest.js",
     "scripts": {
         "test": "jest --config jestconfig.json",
         "build": "tsc",
